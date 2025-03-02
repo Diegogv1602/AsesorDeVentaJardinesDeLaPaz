@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    line-height: 1.6;
 }
 
 header {
@@ -21,10 +22,6 @@ header {
     display: inline-block;
     margin-top: 10px;
 }
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
 
 h2 {
     color: #2c3e50;
@@ -32,7 +29,12 @@ h2 {
 
 .contenedor-imagenes {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Opcional: centrar imágenes */
-    gap: 10px; /* Opcional: espacio entre imágenes */
+    flex-direction: column; /* Asegura que las imágenes estén en columna */
+    align-items: center; /* Centra las imágenes */
+    gap: 10px; /* Espacio entre imágenes */
+}
+
+.contenedor-imagenes img {
+    display: block; /* Asegura que las imágenes estén en su propia línea */
+    width: 300px; /* Ajusta el tamaño según lo necesites */
 }
