@@ -29,3 +29,10 @@ body {
 h2 {
     color: #2c3e50;
 }
+
+.contenedor-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Opcional: centrar imágenes */
+    gap: 10px; /* Opcional: espacio entre imágenes */
+}
